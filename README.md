@@ -27,7 +27,7 @@ This project leverages SQL and Power BI to analyze annual pizza sales data by im
 ## Getting Started
 
 1. **Data Analysis with SQL**:
-   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="slice_insights_analysis.sql">slice_insights_analysis.sql</a> of this repository.
+   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="Queries.pdf">Queries.pdf</a> of this repository.
 
 2. **Creating Dashboards with Power BI**:
    - The Power BI project file <a href="slice_insights.pbix">slice_insights.pbix</a> contains the interactive dashboards. You can open and customize it with Power BI Desktop.
