@@ -27,13 +27,13 @@ This project leverages SQL and Power BI to analyze annual pizza sales data by im
 ## Getting Started
 
 1. **Data Analysis with SQL**:
-   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="slice_insights_analysis.sql">sql_sales_analysis.sql</a> of this repository.
+   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="slice_insights_analysis.sql">slice_insights_analysis.sql</a> of this repository.
 
 2. **Creating Dashboards with Power BI**:
-   - The Power BI project file <a href="slice_insights.pbix">pizza_sales_report.pbix</a> contains the interactive dashboards. You can open and customize it with Power BI Desktop.
+   - The Power BI project file <a href="slice_insights.pbix">slice_insights.pbix</a> contains the interactive dashboards. You can open and customize it with Power BI Desktop.
 
 3. **Access the Dashboard**:
-   - Open the `pizza_sales_report.pbix` file with Power BI Desktop to explore the interactive dashboards.
+   - Open the `slice_insights.pbix` file with Power BI Desktop to explore the interactive dashboards.
 
 ## Data Analysis with SQL
 
@@ -69,7 +69,7 @@ The **Pizza Sales Report** dashboards provide a user-friendly interface and offe
    - Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if you haven't already.
 
 2. **Open the Project File**:
-   - Launch Power BI Desktop and open the `pizza_sales_report.pbix` file.
+   - Launch Power BI Desktop and open the `slice_insights.pbix` file.
 
 3. **Explore the Dashboards**:
    - Navigate between the different views by clicking on the tabs on the left side.
