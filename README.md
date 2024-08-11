@@ -1,6 +1,6 @@
-# Pizza Sales Report with SQL and Power BI
+# Slice Insights : Pizza Sales Report with SQL and Power BI
 
-Welcome to the **Pizza Sales Report** project, where we leverage SQL for data analysis and Power BI for creating interactive visualizations. This project provides in-depth insights into pizza sales data, including daily and monthly trends, sales by pizza category and size, and identifying top-selling pizzas based on revenue, quantity, and total orders.
+This project leverages SQL and Power BI to analyze annual pizza sales data by implementing SQL queries for extracting key performance indicators, identifying daily and monthly trends, and calculating sales percentages by category and size, while utilizing Power BI for data cleaning, visualization, and dashboard creation, including in-depth analysis of top and bottom sellers.
 
 ## Table of Contents
 
@@ -27,10 +27,10 @@ Welcome to the **Pizza Sales Report** project, where we leverage SQL for data an
 ## Getting Started
 
 1. **Data Analysis with SQL**:
-   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="pizza_sales_analysis.sql">sql_sales_analysis.sql</a> of this repository.
+   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="slice_insights_analysis.sql">sql_sales_analysis.sql</a> of this repository.
 
 2. **Creating Dashboards with Power BI**:
-   - The Power BI project file <a href="pizza_sales_report.pbix">pizza_sales_report.pbix</a> contains the interactive dashboards. You can open and customize it with Power BI Desktop.
+   - The Power BI project file <a href="slice_insights.pbix">pizza_sales_report.pbix</a> contains the interactive dashboards. You can open and customize it with Power BI Desktop.
 
 3. **Access the Dashboard**:
    - Open the `pizza_sales_report.pbix` file with Power BI Desktop to explore the interactive dashboards.
@@ -45,7 +45,7 @@ The SQL analysis involved the extraction and transformation of the data, which i
 
 ## Creating Dashboards with Power BI
 
-Power BI is used to create interactive dashboards for visualizing the pizza sales data. The Power BI project file (`pizza_sales_report.pbix`) contains the following interactive dashboards:
+Power BI is used to create interactive dashboards for visualizing the pizza sales data. The Power BI project file (`slice_insights.pbix`) contains the following interactive dashboards:
 
 ### Dashboard Overview
 
@@ -58,10 +58,10 @@ The **Pizza Sales Report** dashboards provide a user-friendly interface and offe
 - **Least-Selling Pizzas**: Identification of least-selling pizzas based on various metrics.
 
 ### Home Page Report Dashboard
-<img src="Dashboards/1_Pizza_Sales_Home_Report_Dashboard.png">
+<img src="Dashboards/Home_Page.png">
 
 ### Best/Worst Sellers Report Dashboard
-<img src="Dashboards/2_Best_worst_Sellers_Report_Dashboard.png">
+<img src="Dashboards/Best_Worst_Sellers.png">
 
 ### How to Use the Dashboard
 
@@ -77,24 +77,7 @@ The **Pizza Sales Report** dashboards provide a user-friendly interface and offe
 4. **Interact with Visuals**:
    - The visuals are interactive; you can hover, click, and filter the data to gain deeper insights.
 
-## Contributors
-
-- [Bharath Guntreddi](https://github.com/bharathguntreddi3) - Project Creator and Maintainer
-
-## Feedback and Contributions
-
-We welcome your feedback, suggestions, and contributions to this project. If you have ideas for improvements, find issues, or would like to add new features, please don't hesitate to open an issue or submit a pull request. Your contributions are highly appreciated!
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
----
-
-Explore the **Pizza Sales Report** to make informed decisions, optimize your menu offerings, and drive your pizza business to success. Thank you for choosing our tool!
-
-If you find this project interesting and useful, show your support by starring ⭐ the repository and sharing it with others. Let's revolutionize productivity together!
-
-## If any necessary commits are required to increase the elegance of this repo! I'm always open for a PR.
-
-## With this signing off..!!, BHARATH GUNTREDDI ..🤞
