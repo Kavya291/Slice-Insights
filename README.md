@@ -1,6 +1,6 @@
-# Slice Insights : Pizza Sales Report with SQL and Power BI
+# Slice Insights: Pizza Sales Report with SQL and Power BI
 
-This project leverages SQL and Power BI to analyze annual pizza sales data by implementing SQL queries for extracting key performance indicators, identifying daily and monthly trends, and calculating sales percentages by category and size, while utilizing Power BI for data cleaning, visualization, and dashboard creation, including in-depth analysis of top and bottom sellers.
+This project utilizes SQL and Power BI to analyze annual pizza sales data. It involves executing SQL queries to extract key performance indicators, identifying daily and monthly sales trends, and calculating sales percentages by category and size. Power BI is employed for data cleaning, visualization, and dashboard creation, including a detailed analysis of top and bottom-selling items.
 
 ## Table of Contents
 
@@ -10,74 +10,71 @@ This project leverages SQL and Power BI to analyze annual pizza sales data by im
 - [Creating Dashboards with Power BI](#creating-dashboards-with-power-bi)
 - [Dashboard Overview](#dashboard-overview)
 - [How to Use the Dashboard](#how-to-use-the-dashboard)
-- [Contributors](#contributors)
-- [Feedback and Contributions](#feedback-and-contributions)
 - [License](#license)
 
 ## Features
 
-- **Daily and Monthly Trends**: Visualize the total number of pizza orders and sales figures on a daily and monthly basis. Gain insights into when the highest sales occurred.
+- **Daily and Monthly Trends**: Visualize pizza order totals and sales figures on a daily and monthly basis to gain insights into peak sales periods.
 
-- **Pizza Category Analysis**: Analyze sales by pizza category to understand customer preferences and identify the most popular categories.
+- **Pizza Category Analysis**: Examine sales by pizza category to understand customer preferences and identify popular categories.
 
-- **Pizza Size Analysis**: Examine the distribution of pizza sales by size, enabling you to tailor your menu based on customer choices.
+- **Pizza Size Analysis**: Analyze sales distribution by pizza size, allowing you to adjust your menu based on customer preferences.
 
-- **Top-Selling Pizzas**: Discover the top-selling pizzas based on revenue, quantity, and total orders. Use this information to optimize your menu and increase profits.
+- **Top-Selling Pizzas**: Identify the top-selling pizzas by revenue, quantity, and total orders to optimize your menu and enhance profitability.
 
 ## Getting Started
 
 1. **Data Analysis with SQL**:
-   - The initial data analysis was conducted using SQL. The SQL scripts and queries used for data extraction, transformation, and loading can be found in the <a href="Queries.pdf">Queries.pdf</a> of this repository.
+   - The initial analysis was performed using SQL. SQL scripts and queries used for data extraction, transformation, and loading are available in the [Queries.pdf](Queries.pdf) file.
 
 2. **Creating Dashboards with Power BI**:
-   - The Power BI project file <a href="slice_insights.pbix">slice_insights.pbix</a> contains the interactive dashboards. You can open and customize it with Power BI Desktop.
+   - The Power BI project file [slice_insights.pbix](slice_insights.pbix) contains the interactive dashboards. Open and customize this file using Power BI Desktop.
 
 3. **Access the Dashboard**:
    - Open the `slice_insights.pbix` file with Power BI Desktop to explore the interactive dashboards.
 
 ## Data Analysis with SQL
 
-The SQL analysis involved the extraction and transformation of the data, which includes details of pizza sales, pizza category, size, and featuring various KPI's. The SQL analytics include:
-   - Identifying the daily and monthly trends of the pizzas sold and the revenue generated.
-   - Identifying the top-selling pizzas based on revenue, quantity, and total orders.
-   - Identify the least-selling pizzas based on revenue, quantity, and total orders.
-   - Identifying the % of sales by pizza category and orders placed by the customers.
+The SQL analysis involved extracting and transforming data related to pizza sales, categories, sizes, and various key performance indicators. The analysis includes:
+   - Tracking daily and monthly sales trends and revenue generation.
+   - Identifying top-selling pizzas based on revenue, quantity, and total orders.
+   - Determining least-selling pizzas based on similar metrics.
+   - Calculating sales percentages by pizza category and customer orders.
 
 ## Creating Dashboards with Power BI
 
-Power BI is used to create interactive dashboards for visualizing the pizza sales data. The Power BI project file (`slice_insights.pbix`) contains the following interactive dashboards:
+Power BI is utilized to create interactive dashboards for visualizing pizza sales data. The Power BI project file (`slice_insights.pbix`) features the following dashboards:
 
 ### Dashboard Overview
 
-The **Pizza Sales Report** dashboards provide a user-friendly interface and offer the following views:
+The **Pizza Sales Report** dashboards offer a user-friendly interface with the following views:
 
 - **Trends**: Daily and monthly sales trends.
-- **Pizza Category Analysis**: Sales breakdown by pizza category.
-- **Pizza Size Analysis**: Distribution of sales by pizza size.
-- **Top-Selling Pizzas**: Identification of top-selling pizzas based on various metrics.
-- **Least-Selling Pizzas**: Identification of least-selling pizzas based on various metrics.
+- **Pizza Category Analysis**: Breakdown of sales by pizza category.
+- **Pizza Size Analysis**: Sales distribution by pizza size.
+- **Top-Selling Pizzas**: Insights into top-selling pizzas based on various metrics.
+- **Least-Selling Pizzas**: Analysis of least-selling pizzas based on similar metrics.
 
 ### Home Page Report Dashboard
-<img src="Dashboards/Home_Page.png">
+<img src="Dashboards/Home_Page.png" alt="Home Page Report Dashboard">
 
 ### Best/Worst Sellers Report Dashboard
-<img src="Dashboards/Best_Worst_Sellers.png">
+<img src="Dashboards/Best_Worst_Sellers.png" alt="Best/Worst Sellers Report Dashboard">
 
-### How to Use the Dashboard
+## How to Use the Dashboard
 
 1. **Open Power BI Desktop**:
-   - Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) if you haven't already.
+   - If you haven't already, install [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
 2. **Open the Project File**:
    - Launch Power BI Desktop and open the `slice_insights.pbix` file.
 
 3. **Explore the Dashboards**:
-   - Navigate between the different views by clicking on the tabs on the left side.
+   - Navigate between different views by selecting the tabs on the left side.
 
 4. **Interact with Visuals**:
-   - The visuals are interactive; you can hover, click, and filter the data to gain deeper insights.
+   - The visuals are interactive; hover, click, and filter the data to uncover deeper insights.
 
 ## License
 
 This project is licensed under the MIT License.
-
